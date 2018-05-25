@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import Jaguar from './Car';
-import Angus from './Dog';
+import Lexus from './Car';
+import Princess from './Dog';
 
 
-class KittyPurry extends Component {
+class JohnBio extends Component {
 
     state = {
-        firstName: "Steve",
-        lastName: "Brownlee",
-        occupation: "Lead Instructor at NSS",
+        firstName: "John",
+        lastName: "McCoy",
+        occupation: "Student at NSS",
         address: {
-            street: "1609 Appaloosa Ct",
-            city: "Spring Hill",
+            street: "507 Martingale Ct",
+            city: "Brentwood",
             state: "TN"
         },
-        fame: "Katy Perry's Biggest Fan",
+        fame: "Software Engineering Master",
         car: {
-            make: "Jaguar",
-            model: "XJ"
+            make: "Lexus",
+            model: "LFA"
         },
         pet: {
             species: "Dog",
-            name: "Angus",
-            breed: "Australian Shepherd"
+            name: "Princess",
+            breed: "German Shepherd"
         }
     }
 
@@ -34,11 +34,11 @@ class KittyPurry extends Component {
                 <h4>{this.state.occupation}</h4>
                 <h5>{this.state.fame}</h5>
                 <Home address={this.state.address} />
-                <Jaguar make={this.state.car.make} model={this.state.car.model} />
-                <Angus name={this.state.pet.name} breed={this.state.pet.breed} />
+                <Lexus make={this.state.car.make} model={this.state.car.model} />
+                <Princess name={this.state.pet.name} breed={this.state.pet.breed} />
             </div>
         );
     }
 }
 
-export default KittyPurry;
+export default JohnBio;

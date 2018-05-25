@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import KittyPurry from './KittyPurry';
+import JohnBio from './KittyPurry';
 import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render(<KittyPurry />, document.getElementById('root'));
+ReactDOM.render(<JohnBio />, document.getElementById('root'));
 registerServiceWorker();
