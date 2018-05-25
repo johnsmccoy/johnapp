@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 
-class Angus extends Component {
+class Princess extends Component {
     render() {
         return (
             <div>
@@ -14,4 +14,4 @@ class Angus extends Component {
     }
   }
 
-export default Angus
+export default Princess

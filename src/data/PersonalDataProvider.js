@@ -4,23 +4,23 @@ export const MyContext = React.createContext()
 
 export class MyProvider extends Component {
     state = {
-        firstName: "Steve",
-        lastName: "Brownlee",
-        occupation: "Lead Instructor at NSS",
+        firstName: "John",
+        lastName: "McCoy",
+        occupation: "Student at NSS",
         address: {
-            street: "1609 Appaloosa Ct",
-            city: "Spring Hill",
+            street: "507 Martingale Ct",
+            city: "Brentwood",
             state: "TN"
         },
-        fame: "Katy Perry's Biggest Fan",
+        fame: "Software Engineering Master",
         car: {
-            make: "Jaguar",
-            model: "XJ"
+            make: "Lexus",
+            model: "LFA"
         },
         pet: {
             species: "Dog",
-            name: "Angus",
-            breed: "Australian Shepherd"
+            name: "Princess",
+            breed: "German Shepherd"
         }
     }
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 
-class JaguarXJ extends Component {
+class LexusLFA extends Component {
     render() {
         return (
             <div>
@@ -14,4 +14,4 @@ class JaguarXJ extends Component {
     }
   }
 
-export default JaguarXJ
+export default LexusLFA
