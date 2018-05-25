@@ -23,7 +23,7 @@ class JohnBio extends Component {
         pet: {
             species: "Dog",
             name: "Princess",
-            breed: "German Shepherd"
+            breed: "Ovcharka"
         }
     }
 
